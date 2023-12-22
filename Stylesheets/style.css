@@ -1,0 +1,193 @@
+html {
+    font-size: 17px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    color: #444444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+a {
+    text-decoration: none;
+    color: olivedrab;
+}
+
+a:hover, a:active {
+    color: darkolivegreen;
+}
+
+/* the style thingie is used for changing the appearance of the img tag under the id attribute */
+#banner {
+    width: 250px;
+    height: 250px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 0px;
+}
+
+#about {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#description {
+    width: 50%;
+    padding: 20px;
+    margin: 0;
+}
+
+#place {
+    width: 50%;
+    padding-left: 125px;
+    padding-right: auto;
+    padding-top: 45px;
+}
+
+#image {
+    border-radius: 5px;
+}
+
+#career {
+    padding: 20px;
+    width: 50%;
+    padding-top: 48px;
+}
+
+#footer {
+    text-align: center;
+    background: lightgray;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+#li-item {
+    list-style: none;
+    display: inline;
+    margin: 0 16px;
+}
+
+#jobs {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+#jobs-table tr:nth-child(even) {
+    background-color: ghostwhite;
+}
+
+#application {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#application-form label {
+    font-weight: bold;
+    display: block;
+    font-size: 1.2rem;
+}
+
+#application-form input, select, textarea {
+    padding: 5px;
+    font-size: 1.1rem;
+    margin-top: 0;
+    border-radius: 5px;
+    border: 1px solid gray
+}
+
+#application-form select {
+    padding: 5px;
+    font-size: 1.1rem;
+    margin-top: 0;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+#application-form textarea {
+    width: 75%;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+/* the below thingie is used for changing the appearance of any tag, under the class attribute */
+.emphasis {
+    color: darkblue;
+}
+
+.location {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    margin-right: 10px;
+}
+
+.apply {
+    float: right;
+}
+
+.copyright {
+    font-family: sans-serif;
+    color: lightslategray;
+    font-size: 0.625rem;
+}
+
+.jobs-header-row th {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 8px;
+    background-color: aliceblue;
+}
+
+.jobs-data-row td {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"]{
+    background-color: #0ea5e9;
+    color: white;
+    font-weight: 700;
+    padding: 16px;
+    cursor: pointer;
+}
