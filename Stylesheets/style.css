@@ -1,4 +1,87 @@
 html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 9px;
+    font-family: 'IBM PLex Sans', sans-serif;
+    color: #444444;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+a {
+    text-decoration: none;
+    color: olivedrab;
+}
+
+a:hover, a:active {
+    color: darkolivegreen;
+}
+
+
+#navbar {
+    padding: 8px;
+    margin: 0px;
+    
+}
+
+#nav-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-container {
+    margin-right: 10px;
+}
+
+
+
+
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 19px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 21px;
+    }
+}
+/*
+
+html {
     font-size: 17px;
 }
 
@@ -33,7 +116,6 @@ a:hover, a:active {
     color: darkolivegreen;
 }
 
-/* the style thingie is used for changing the appearance of the img tag under the id attribute */
 #banner {
     width: 250px;
     height: 250px;
@@ -138,7 +220,7 @@ a:hover, a:active {
 }
 
 
-/* the below thingie is used for changing the appearance of any tag, under the class attribute */
+
 .emphasis {
     color: darkblue;
 }
@@ -191,3 +273,5 @@ a:hover, a:active {
     padding: 16px;
     cursor: pointer;
 }
+
+*/
