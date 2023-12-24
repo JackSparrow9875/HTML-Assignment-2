@@ -36,26 +36,39 @@ a:hover, a:active {
 #navbar {
     padding: 8px;
     margin: 0px;
-    
 }
 
-#nav-image {
+#logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-.logo-container {
-    margin-right: 10px;
+#logo-with-text {
+    display: none;
 }
-
 
 
 
 @media screen and (min-width: 576px) {
     html {
         font-size: 17px;
+    }
+
+
+    #navbar {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        margin: 0px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #logo-with-text {
+        display: flex;
     }
 }
 
